@@ -36,7 +36,6 @@ end
 
 def can_get_the_first_item_in_the_database
   movie = Movie.new
-  movie.first_or_create
   binding.pry
 end
 
